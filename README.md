@@ -20,3 +20,6 @@ tweet_bot
 2. スプレッドシートのボタン又はトリガーを設定
 
 3. 現在の番号を変更すれば指定したNoから、順番に実行されます。
+
+## イメージ画像
+<img width="884" alt="Twitter_spreadsheet" src="https://user-images.githubusercontent.com/71483628/116626895-0e44c880-a987-11eb-88cb-6fc50602b2bf.png">
