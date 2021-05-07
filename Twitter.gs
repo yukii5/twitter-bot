@@ -23,14 +23,12 @@ function tweet() {
       method : "post",
       payload : payload})
       
-   // console.log(response.getResponseCode())
   }else{
-   // console.log(servise.getLastError())
   }
 }
 
-const spreadsheet = SpreadsheetApp.openById('1exjYjVCBhSdVNnvaZMB52s4zonCCPc3dK-FpzBIQ2GY')
-const sheet =  spreadsheet.getSheetByName("TweetContent")
+const spreadsheet = SpreadsheetApp.openById('●●●●●')//スプレッドシートIDを入力
+const sheet =  spreadsheet.getSheetByName("●●●●●")//シート名を入力
 
 function getTweetContentFromSheet(){
 
@@ -39,7 +37,6 @@ function getTweetContentFromSheet(){
   
   let i = sheet.getRange(1,5,1,1).getValue()
   i ++;
-  //console.log(i)
   if(count <= i -1){
   i = 1;
   }
